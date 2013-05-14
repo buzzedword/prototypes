@@ -1,0 +1,25 @@
+/* line 2, ../../app/styles/layout.scss */
+.promise.title {
+  margin-bottom: 0;
+}
+/* line 5, ../../app/styles/layout.scss */
+.promise.title, .promise.title .copy {
+  text-align: center;
+}
+/* line 10, ../../app/styles/layout.scss */
+.promise.copy {
+  margin-top: 0;
+}
+/* line 15, ../../app/styles/layout.scss */
+.promise.quads h5 {
+  text-align: left;
+}
+/* line 19, ../../app/styles/layout.scss */
+.promise.quads .panel {
+  min-height: 150px;
+}
+
+/* line 26, ../../app/styles/layout.scss */
+.featured-promise .panel {
+  min-height: 150px;
+}
