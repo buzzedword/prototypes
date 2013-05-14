@@ -1,0 +1,29 @@
+.promise {
+    &.title {
+        margin-bottom: 0;
+
+        &, .copy {
+            text-align: center;
+        }
+    }
+
+    &.copy {
+        margin-top: 0;
+    }
+
+    &.quads {
+        h5 {
+            text-align: left;
+        }
+
+        .panel {
+            min-height: 150px;
+        }
+    }
+}
+
+.featured-promise {
+    .panel {
+        min-height: 150px;
+    }
+}

@@ -1,13 +1,21 @@
 require.config({
-  shim: {
-  },
+    shim: {
+        'foundation/foundation.min': {
+            deps: ['jquery']
+        }
+    },
 
-  paths: {
-    jquery: 'vendor/jquery.min'
-  }
+    paths: {
+        jquery: 'vendor/jquery.min'
+    }
 });
- 
-require(['app'], function(app) {
-  // use app here
-  console.log(app);
+
+require([
+    'foundation/foundation.min',
+    'app'
+], function() {
+    var app = arguments[arguments.length -1];
+    // use app here
+    $(document).foundation();
+    console.log(app);
 });
